@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website de Prezentare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #3700b3;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+        }
+        footer {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website de Prezentare</h1>
+        <p>Autor: Numele Prenumele</p>
+    </header>
+    
+    <nav>
+        <a href="#poze">Poze</a>
+        <a href="#linkuri-interne">Linkuri Interne</a>
+        <a href="#linkuri-externe">Linkuri Externe</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <main>
+        <section id="poze">
+            <h2>Poze</h2>
+            <img src="https://via.placeholder.com/400" alt="Poză exemplu 1">
+            <p>Sursa: <a href="https://via.placeholder.com" target="_blank">placeholder.com</a></p>
+
+            <img src="https://via.placeholder.com/500" alt="Poză exemplu 2">
+            <p>Sursa: <a href="https://via.placeholder.com" target="_blank">placeholder.com</a></p>
+        </section>
+
+        <section id="linkuri-interne">
+            <h2>Linkuri Interne</h2>
+            <ul>
+                <li><a href="#poze">Secțiunea Poze</a></li>
+                <li><a href="#linkuri-interne">Secțiunea Linkuri Interne</a></li>
+                <li><a href="#linkuri-externe">Secțiunea Linkuri Externe</a></li>
+                <li><a href="#contact">Secțiunea Contact</a></li>
+            </ul>
+        </section>
+
+        <section id="linkuri-externe">
+            <h2>Linkuri Externe</h2>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+                <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://www.netlify.com" target="_blank">Netlify</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pentru mai multe informații, contactați-mă la <a href="mailto:exemplu@email.com">exemplu@email.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Numele Prenumele. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
